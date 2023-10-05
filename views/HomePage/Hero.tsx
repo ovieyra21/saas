@@ -14,19 +14,19 @@ export default function Hero() {
   return (
     <HeroWrapper>
       <Contents>
-        <CustomOverTitle>the coolest, saas product you have ever seen</CustomOverTitle>
-        <Heading>Make your life easier with our SaaS</Heading>
+        <CustomOverTitle>Sistema de gestión de gastos y reembolsos</CustomOverTitle>
+        <Heading>Elimine la complejidad de los informes de gastos</Heading>
         <Description>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, tempora qui. Explicabo voluptate iure ipsum molestias
-          repudiandae perspiciatis nostrum praesentium, unde pariatur tempora magni rem. Necessitatibus facilis obcaecati ratione.
+          Expense es un software de informes de gastos en línea diseñado para todo tipo de usuarios que automatiza la creación de reportes de gastos y agiliza el proceso de aprobación y reembolso.
+          Software de informes de gastos que puedes llevar contigo.
         </Description>
         <CustomButtonGroup>
           <Button onClick={() => setIsModalOpened(true)}>
-            Subscribe to the newsletter <span>&rarr;</span>
+          Aprende más<span>&rarr;</span>
           </Button>
           <NextLink href="#whitepaper" passHref>
             <Button transparent>
-              Features <span>&rarr;</span>
+              Funcionalidades <span>&rarr;</span>
             </Button>
           </NextLink>
         </CustomButtonGroup>
